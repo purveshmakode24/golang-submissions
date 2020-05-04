@@ -1,2 +1,2 @@
 # golang-submissions
-golang coding submissions Comming soon!
+golang coding submissions Coming soon!
