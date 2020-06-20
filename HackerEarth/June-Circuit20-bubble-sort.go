@@ -1,3 +1,5 @@
+//Passed all test cases
+
 package main
 
 import(
@@ -11,12 +13,11 @@ func main() {
 	fmt.Scan(&n)
 
 	for i:=0; i<n; i++ {
-		fmt.Scan(&a)
+	   	fmt.Scan(&a)
 		arr = append(arr, a)
 	}
 
 	cnt := 0
-
 	swapped := true
 
 	for swapped != false {
@@ -26,12 +27,11 @@ func main() {
 		for i:=0; i<n-1; i++ {
 			if arr[i]>arr[i+1] {
 				temp = arr[i+1]
-            	arr[i+1] = arr[i]
-            	arr[i] = temp
-            	swapped = true
+            			arr[i+1] = arr[i]
+            			arr[i] = temp
+            			swapped = true
 			}
 		}
 	}
-
 	fmt.Print(cnt)
 }
